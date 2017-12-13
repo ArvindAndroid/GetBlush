@@ -65,14 +65,37 @@
 		A4684DEA1FE0EE9400A4706D /* GetBlushhUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetBlushhUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4684DEE1FE0EE9400A4706D /* GetBlushhUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBlushhUITests.swift; sourceTree = "<group>"; };
 		A4684DF01FE0EE9400A4706D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4684DFD1FE0EF0200A4706D /* aller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aller; sourceTree = "<group>"; };
-		A4684DFE1FE0EF0300A4706D /* Lato Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Lato Font"; sourceTree = "<group>"; };
 		A4684E001FE0EFDF00A4706D /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
 		A4684E021FE0EFF700A4706D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		A4684E041FE0F00A00A4706D /* DefaultSharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSharedData.swift; sourceTree = "<group>"; };
 		A4684E061FE0F01D00A4706D /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		A4684E081FE0F09400A4706D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A4684E0B1FE0F0ED00A4706D /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		A4684E131FE1001500A4706D /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A4684E141FE1001500A4706D /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		A4684E151FE1001500A4706D /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		A4684E161FE1001500A4706D /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		A4684E171FE1001500A4706D /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		A4684E181FE1001500A4706D /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A4684E191FE1001500A4706D /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		A4684E1A1FE1001500A4706D /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		A4684E1B1FE1001600A4706D /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		A4684E1C1FE1001600A4706D /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		A4684E1D1FE1001600A4706D /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		A4684E1E1FE1001600A4706D /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		A4684E1F1FE1001600A4706D /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		A4684E201FE1001600A4706D /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		A4684E211FE1001600A4706D /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		A4684E221FE1001600A4706D /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		A4684E231FE1001700A4706D /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A4684E241FE1001700A4706D /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A4684E251FE1002400A4706D /* Aller_Rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_Rg.ttf; sourceTree = "<group>"; };
+		A4684E261FE1002400A4706D /* AllerDisplay.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AllerDisplay.ttf; sourceTree = "<group>"; };
+		A4684E271FE1002400A4706D /* Aller_Bd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_Bd.ttf; sourceTree = "<group>"; };
+		A4684E281FE1002400A4706D /* Aller_LtIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_LtIt.ttf; sourceTree = "<group>"; };
+		A4684E291FE1002400A4706D /* Aller_BdIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_BdIt.ttf; sourceTree = "<group>"; };
+		A4684E2A1FE1002400A4706D /* Aller_Lt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_Lt.ttf; sourceTree = "<group>"; };
+		A4684E2B1FE1002400A4706D /* Aller_It.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_It.ttf; sourceTree = "<group>"; };
 		A82E98AF53E9DCCC65823A92 /* Pods-GetBlushhUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetBlushhUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetBlushhUITests/Pods-GetBlushhUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3278104B351A88C580B129C /* Pods-GetBlushh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetBlushh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetBlushh/Pods-GetBlushh.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -188,8 +211,8 @@
 		A4684DFC1FE0EEF100A4706D /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				A4684DFD1FE0EF0200A4706D /* aller */,
-				A4684DFE1FE0EF0300A4706D /* Lato Font */,
+				A4684E121FE1000400A4706D /* LatoFont */,
+				A4684E111FE0FFF200A4706D /* allerFont */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -236,6 +259,46 @@
 			children = (
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A4684E111FE0FFF200A4706D /* allerFont */ = {
+			isa = PBXGroup;
+			children = (
+				A4684E271FE1002400A4706D /* Aller_Bd.ttf */,
+				A4684E291FE1002400A4706D /* Aller_BdIt.ttf */,
+				A4684E2B1FE1002400A4706D /* Aller_It.ttf */,
+				A4684E2A1FE1002400A4706D /* Aller_Lt.ttf */,
+				A4684E281FE1002400A4706D /* Aller_LtIt.ttf */,
+				A4684E251FE1002400A4706D /* Aller_Rg.ttf */,
+				A4684E261FE1002400A4706D /* AllerDisplay.ttf */,
+			);
+			name = allerFont;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		A4684E121FE1000400A4706D /* LatoFont */ = {
+			isa = PBXGroup;
+			children = (
+				A4684E1C1FE1001600A4706D /* Lato-Black.ttf */,
+				A4684E131FE1001500A4706D /* Lato-BlackItalic.ttf */,
+				A4684E1B1FE1001600A4706D /* Lato-Bold.ttf */,
+				A4684E181FE1001500A4706D /* Lato-BoldItalic.ttf */,
+				A4684E1F1FE1001600A4706D /* Lato-Hairline.ttf */,
+				A4684E171FE1001500A4706D /* Lato-HairlineItalic.ttf */,
+				A4684E151FE1001500A4706D /* Lato-Heavy.ttf */,
+				A4684E201FE1001600A4706D /* Lato-HeavyItalic.ttf */,
+				A4684E141FE1001500A4706D /* Lato-Italic.ttf */,
+				A4684E161FE1001500A4706D /* Lato-Light.ttf */,
+				A4684E211FE1001600A4706D /* Lato-LightItalic.ttf */,
+				A4684E1E1FE1001600A4706D /* Lato-Medium.ttf */,
+				A4684E231FE1001700A4706D /* Lato-MediumItalic.ttf */,
+				A4684E191FE1001500A4706D /* Lato-Regular.ttf */,
+				A4684E221FE1001600A4706D /* Lato-Semibold.ttf */,
+				A4684E1A1FE1001500A4706D /* Lato-SemiboldItalic.ttf */,
+				A4684E1D1FE1001600A4706D /* Lato-Thin.ttf */,
+				A4684E241FE1001700A4706D /* Lato-ThinItalic.ttf */,
+			);
+			path = LatoFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
