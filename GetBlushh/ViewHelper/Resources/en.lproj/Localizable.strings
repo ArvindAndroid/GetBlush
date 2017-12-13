@@ -1,0 +1,49 @@
+/* 
+  Resources.strings
+  GetBlushh
+
+  Created by Arvind Mehta on 13/12/17.
+  Copyright © 2017 Arvind Mehta. All rights reserved.
+*/
+
+"NoInternetTitle" = "No internet connection";
+"NoInternet" = "Your device cannot connect to the internet. Please check your device connection settings and try again.";
+"Something wrong" = "Something went wrong, please try again.";
+"Error" = "Error";
+"Ok" = "Ok";
+"Please wait" = "Please wait...";
+"Not provided" = "Not provided";
+"Success" = "Success";
+"Done" = "Done";
+"Close" = "Close";
+"Bluetooth" = "Bluetooth";
+
+// Login
+"Sign In With" = "Sign In With";
+"or" = "or";
+"Sign In" = "Sign In";
+"Don't Have an Account?" = "Don't Have an Account?";
+"Sign In" = "Sign In";
+"Sign Up" = "Sign Up";
+"Forgot Password?" = "Forgot Password?";
+"Email" = "Email";
+"Password" = "Password";
+"Email is required" = "Email is required.";
+"Invalid email address" = "Invalid email address.";
+"Password is required" = "Password is required.";
+"Facebook" = "Facebook";
+"Twitter" = "Twitter";
+"App" = "App";
+
+//Register
+"Sign Up With" = "Sign Up With";
+"Already Registered?" = "Already Registered?";
+"First Name" = "First Name";
+"Last Name" = "Last Name";
+"Confirm Password" = "Confirm Password";
+"Error FirstName" = "Please Enter First Name"
+"Error Phone" = "Please Enter Valid Phone Number"
+"Error Email" = "Please Enter Valid Email"
+"Error DOB" = "Please Enter Your Date Of Birth"
+"Error Fields" = "Please Enter Required Fields"
+"Error Fail" = "Unable To Sign Up"

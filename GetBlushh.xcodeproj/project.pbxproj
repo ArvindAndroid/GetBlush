@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		873EA68ACC43951CE920F599 /* Pods_GetBlushhUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A3AAD879EE453A8EB3EC5 /* Pods_GetBlushhUITests.framework */; };
+		A420E2C71FE192E300ECECED /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420E2C61FE192E300ECECED /* RegisterViewController.swift */; };
+		A420E2CA1FE194DC00ECECED /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420E2C91FE194DC00ECECED /* ACFloatingTextfield.swift */; };
 		A4684DCC1FE0EE9300A4706D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4684DCB1FE0EE9300A4706D /* AppDelegate.swift */; };
 		A4684DCE1FE0EE9300A4706D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4684DCD1FE0EE9300A4706D /* ViewController.swift */; };
 		A4684DD11FE0EE9300A4706D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4684DCF1FE0EE9300A4706D /* Main.storyboard */; };
@@ -51,6 +53,8 @@
 		76DE4626D3D307952014353F /* Pods-GetBlushh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetBlushh.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetBlushh/Pods-GetBlushh.release.xcconfig"; sourceTree = "<group>"; };
 		99F949BDCFD5B09A4E88C387 /* Pods_GetBlushhTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetBlushhTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0EC636CBFB2C66314ADDCD7 /* Pods-GetBlushhTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetBlushhTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetBlushhTests/Pods-GetBlushhTests.release.xcconfig"; sourceTree = "<group>"; };
+		A420E2C61FE192E300ECECED /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A420E2C91FE194DC00ECECED /* ACFloatingTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACFloatingTextfield.swift; sourceTree = "<group>"; };
 		A4684DC81FE0EE9300A4706D /* GetBlushh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetBlushh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4684DCB1FE0EE9300A4706D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4684DCD1FE0EE9300A4706D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +155,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A420E2C51FE192C200ECECED /* RegisterController */ = {
+			isa = PBXGroup;
+			children = (
+				A420E2C61FE192E300ECECED /* RegisterViewController.swift */,
+			);
+			path = RegisterController;
+			sourceTree = "<group>";
+		};
+		A420E2C81FE194CB00ECECED /* Customcomponent */ = {
+			isa = PBXGroup;
+			children = (
+				A420E2C91FE194DC00ECECED /* ACFloatingTextfield.swift */,
+			);
+			path = Customcomponent;
+			sourceTree = "<group>";
+		};
+		A420E2CB1FE1974100ECECED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A4684DBF1FE0EE9300A4706D = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +274,8 @@
 		A4684E0F1FE0F15600A4706D /* ViewHelper */ = {
 			isa = PBXGroup;
 			children = (
+				A420E2CB1FE1974100ECECED /* Resources */,
+				A420E2C81FE194CB00ECECED /* Customcomponent */,
 				A4684E0A1FE0F0C000A4706D /* ApiHelper */,
 				A4684DFF1FE0EFC800A4706D /* Utilities */,
 				A4684DFC1FE0EEF100A4706D /* Fonts */,
@@ -257,6 +286,7 @@
 		A4684E101FE0F16000A4706D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A420E2C51FE192C200ECECED /* RegisterController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -542,12 +572,14 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-GetBlushh/Pods-GetBlushh-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Bottomsheet/Bottomsheet.framework",
+				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bottomsheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,6 +631,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4684E051FE0F00A00A4706D /* DefaultSharedData.swift in Sources */,
+				A420E2C71FE192E300ECECED /* RegisterViewController.swift in Sources */,
 				A4684E071FE0F01D00A4706D /* ToastView.swift in Sources */,
 				A4684E031FE0EFF700A4706D /* Utils.swift in Sources */,
 				A4684E0C1FE0F0ED00A4706D /* Networking.swift in Sources */,
@@ -606,6 +639,7 @@
 				A4684E011FE0EFDF00A4706D /* Connector.swift in Sources */,
 				A4684DD41FE0EE9300A4706D /* GetBlushh.xcdatamodeld in Sources */,
 				A4684DCC1FE0EE9300A4706D /* AppDelegate.swift in Sources */,
+				A420E2CA1FE194DC00ECECED /* ACFloatingTextfield.swift in Sources */,
 				A4684E091FE0F09400A4706D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
