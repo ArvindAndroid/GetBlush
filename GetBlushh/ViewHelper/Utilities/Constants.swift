@@ -32,8 +32,7 @@ struct Constants {
     //Start Secret
     static let REGISTER_SECRET_OTP_KEY = "secret"
     static let LOGIN_SECRET_OTP_KEY = "login_secret";
-    // static let LIVEURL = "http://ec2-34-212-42-227.us-west-2.compute.amazonaws.com:3500/";
-    static let LIVEURL = "http://ec2-34-212-42-227.us-west-2.compute.amazonaws.com:3200/";
-    static let PHPLIVEURL = "http://ec2-34-212-42-227.us-west-2.compute.amazonaws.com/hanord/admin/index.php/";
-    //static let PHPLIVEURL = "http://ec2-34-212-42-227.us-west-2.compute.amazonaws.com/live/hanord/admin/index.php/";
+
+    static let LIVEURL = "https://getblushh.com/getblushh/mobile_services/api/";
+   
 }

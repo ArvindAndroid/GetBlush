@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GetBlushh/Controllers/RegisterController/RegisterViewController.swift"
-            timestampString = "534881333.412789"
+            timestampString = "534895017.626915"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "validateValues()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GetBlushh/Controllers/RegisterController/RegisterViewController.swift"
-            timestampString = "534881333.413002"
+            timestampString = "534895017.627071"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "validateValues()"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GetBlushh/Controllers/RegisterController/RegisterViewController.swift"
-            timestampString = "534881333.413163"
+            timestampString = "534895017.627167"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "onSubmitClick(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GetBlushh/Controllers/RegisterController/RegisterViewController.swift"
-            timestampString = "534881333.41329"
+            timestampString = "534895017.62726"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "onSubmitClick(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GetBlushh/Controllers/RegisterController/RegisterViewController.swift"
-            timestampString = "534881352.678179"
+            timestampString = "534895017.62735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "validateValues()"
             landmarkType = "7">
             <Locations>
@@ -89,13 +89,13 @@
                   symbolName = "GetBlushh.RegisterViewController.validateValues() -&gt; Swift.String"
                   moduleName = "GetBlushh"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/arvind/Documents/GetBlush/GetBlushh/Controllers/RegisterController/RegisterViewController.swift"
-                  timestampString = "534881352.689645"
+                  urlString = "file:///Users/arvind/Documents/popsy166/GIT/GetBlush/GetBlushh/Controllers/RegisterController/RegisterViewController.swift"
+                  timestampString = "534895017.947866"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "66">
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "61">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -104,15 +104,31 @@
                   symbolName = "GetBlushh.RegisterViewController.validateValues() -&gt; Swift.String"
                   moduleName = "GetBlushh"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/arvind/Documents/GetBlush/GetBlushh/Controllers/RegisterController/RegisterViewController.swift"
-                  timestampString = "534881352.694627"
+                  urlString = "file:///Users/arvind/Documents/popsy166/GIT/GetBlush/GetBlushh/Controllers/RegisterController/RegisterViewController.swift"
+                  timestampString = "534895017.958404"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "1021">
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "686">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetBlushh/Controllers/LoginController/LoginViewController.swift"
+            timestampString = "534895017.627454"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "onSaveClick(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

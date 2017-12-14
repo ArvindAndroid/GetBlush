@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+class RegisterViewController: UIViewController ,UITextFieldDelegate{
 
     @IBOutlet weak var bt_male: UIButton!
     @IBOutlet weak var bt_femaie: UIButton!
@@ -20,7 +20,12 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var _phone: ACFloatingTextfield!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+         _phone.delegate = self
+         _referralCode.delegate = self
+         _email.delegate = self
+         _name.delegate = self
+         _userAniversry.delegate = self
+         _userDOB.delegate = self
         // Do any additional setup after loading the view.
     }
 
