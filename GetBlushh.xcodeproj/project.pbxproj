@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		873EA68ACC43951CE920F599 /* Pods_GetBlushhUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A3AAD879EE453A8EB3EC5 /* Pods_GetBlushhUITests.framework */; };
+		A418EE751FE3C2790055A677 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418EE741FE3C2790055A677 /* BookingViewController.swift */; };
+		A418EE771FE3C3300055A677 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418EE761FE3C3300055A677 /* HomeViewController.swift */; };
+		A418EE791FE3C3650055A677 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418EE781FE3C3650055A677 /* MyAccountViewController.swift */; };
+		A41E50961FE7C4FA002BDD27 /* HomePackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41E50951FE7C4FA002BDD27 /* HomePackageCell.swift */; };
 		A420E2C71FE192E300ECECED /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420E2C61FE192E300ECECED /* RegisterViewController.swift */; };
 		A420E2CA1FE194DC00ECECED /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420E2C91FE194DC00ECECED /* ACFloatingTextfield.swift */; };
 		A420E2D81FE1A65800ECECED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420E2D71FE1A65800ECECED /* LoginViewController.swift */; };
 		A420E2DA1FE1C1CD00ECECED /* KeyboardAvoidingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420E2D91FE1C1CD00ECECED /* KeyboardAvoidingMode.swift */; };
 		A420E2DC1FE1C1F300ECECED /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A420E2DB1FE1C1F300ECECED /* KeyboardDismissingView.swift */; };
+		A42469151FE25DAE000195C6 /* MyDefaultPikers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42469141FE25DAE000195C6 /* MyDefaultPikers.swift */; };
 		A4684DCC1FE0EE9300A4706D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4684DCB1FE0EE9300A4706D /* AppDelegate.swift */; };
 		A4684DCE1FE0EE9300A4706D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4684DCD1FE0EE9300A4706D /* ViewController.swift */; };
 		A4684DD11FE0EE9300A4706D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4684DCF1FE0EE9300A4706D /* Main.storyboard */; };
@@ -27,6 +32,8 @@
 		A4684E071FE0F01D00A4706D /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4684E061FE0F01D00A4706D /* ToastView.swift */; };
 		A4684E091FE0F09400A4706D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4684E081FE0F09400A4706D /* Constants.swift */; };
 		A4684E0C1FE0F0ED00A4706D /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4684E0B1FE0F0ED00A4706D /* Networking.swift */; };
+		A4685AE61FEA4E8700E6B40A /* AlamofireSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4685AE51FEA4E8700E6B40A /* AlamofireSource.swift */; };
+		A4769BD21FE91B4200CB2068 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4769BD11FE91B4100CB2068 /* CoreLocation.framework */; };
 		C5771DEB3D371463194099C1 /* Pods_GetBlushh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50750FA5A8F2B8023650AA78 /* Pods_GetBlushh.framework */; };
 		E159793F1575D53D7065FEEA /* Pods_GetBlushhTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F949BDCFD5B09A4E88C387 /* Pods_GetBlushhTests.framework */; };
 /* End PBXBuildFile section */
@@ -56,11 +63,16 @@
 		76DE4626D3D307952014353F /* Pods-GetBlushh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetBlushh.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetBlushh/Pods-GetBlushh.release.xcconfig"; sourceTree = "<group>"; };
 		99F949BDCFD5B09A4E88C387 /* Pods_GetBlushhTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetBlushhTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0EC636CBFB2C66314ADDCD7 /* Pods-GetBlushhTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetBlushhTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetBlushhTests/Pods-GetBlushhTests.release.xcconfig"; sourceTree = "<group>"; };
+		A418EE741FE3C2790055A677 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		A418EE761FE3C3300055A677 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A418EE781FE3C3650055A677 /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		A41E50951FE7C4FA002BDD27 /* HomePackageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePackageCell.swift; sourceTree = "<group>"; };
 		A420E2C61FE192E300ECECED /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A420E2C91FE194DC00ECECED /* ACFloatingTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACFloatingTextfield.swift; sourceTree = "<group>"; };
 		A420E2D71FE1A65800ECECED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A420E2D91FE1C1CD00ECECED /* KeyboardAvoidingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidingMode.swift; sourceTree = "<group>"; };
 		A420E2DB1FE1C1F300ECECED /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		A42469141FE25DAE000195C6 /* MyDefaultPikers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDefaultPikers.swift; sourceTree = "<group>"; };
 		A4684DC81FE0EE9300A4706D /* GetBlushh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetBlushh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4684DCB1FE0EE9300A4706D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4684DCD1FE0EE9300A4706D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +118,8 @@
 		A4684E291FE1002400A4706D /* Aller_BdIt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_BdIt.ttf; sourceTree = "<group>"; };
 		A4684E2A1FE1002400A4706D /* Aller_Lt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_Lt.ttf; sourceTree = "<group>"; };
 		A4684E2B1FE1002400A4706D /* Aller_It.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aller_It.ttf; sourceTree = "<group>"; };
+		A4685AE51FEA4E8700E6B40A /* AlamofireSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireSource.swift; sourceTree = "<group>"; };
+		A4769BD11FE91B4100CB2068 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A82E98AF53E9DCCC65823A92 /* Pods-GetBlushhUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetBlushhUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetBlushhUITests/Pods-GetBlushhUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3278104B351A88C580B129C /* Pods-GetBlushh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetBlushh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetBlushh/Pods-GetBlushh.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4769BD21FE91B4200CB2068 /* CoreLocation.framework in Frameworks */,
 				C5771DEB3D371463194099C1 /* Pods_GetBlushh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 		1BE1BF8A352DCA87187F0C3F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4769BD11FE91B4100CB2068 /* CoreLocation.framework */,
 				50750FA5A8F2B8023650AA78 /* Pods_GetBlushh.framework */,
 				99F949BDCFD5B09A4E88C387 /* Pods_GetBlushhTests.framework */,
 				5D3A3AAD879EE453A8EB3EC5 /* Pods_GetBlushhUITests.framework */,
@@ -159,6 +175,17 @@
 				001728C191E7B47A1587D80A /* Pods-GetBlushhUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A418EE731FE3C25E0055A677 /* DashBoardController */ = {
+			isa = PBXGroup;
+			children = (
+				A418EE741FE3C2790055A677 /* BookingViewController.swift */,
+				A418EE761FE3C3300055A677 /* HomeViewController.swift */,
+				A418EE781FE3C3650055A677 /* MyAccountViewController.swift */,
+				A41E50951FE7C4FA002BDD27 /* HomePackageCell.swift */,
+			);
+			path = DashBoardController;
 			sourceTree = "<group>";
 		};
 		A420E2C51FE192C200ECECED /* RegisterController */ = {
@@ -182,6 +209,7 @@
 		A420E2CB1FE1974100ECECED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A42469141FE25DAE000195C6 /* MyDefaultPikers.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -268,6 +296,7 @@
 				A4684E041FE0F00A00A4706D /* DefaultSharedData.swift */,
 				A4684E061FE0F01D00A4706D /* ToastView.swift */,
 				A4684E081FE0F09400A4706D /* Constants.swift */,
+				A4685AE51FEA4E8700E6B40A /* AlamofireSource.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -302,6 +331,7 @@
 		A4684E101FE0F16000A4706D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A418EE731FE3C25E0055A677 /* DashBoardController */,
 				A420E2D61FE1A63B00ECECED /* LoginController */,
 				A420E2C51FE192C200ECECED /* RegisterController */,
 			);
@@ -588,15 +618,23 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GetBlushh/Pods-GetBlushh-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bottomsheet/Bottomsheet.framework",
+				"${BUILT_PRODUCTS_DIR}/GooglePlacesSearchController/GooglePlacesSearchController.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/KWVerificationCodeView/KWVerificationCodeView.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bottomsheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GooglePlacesSearchController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KWVerificationCodeView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -650,17 +688,23 @@
 				A420E2D81FE1A65800ECECED /* LoginViewController.swift in Sources */,
 				A4684E051FE0F00A00A4706D /* DefaultSharedData.swift in Sources */,
 				A420E2C71FE192E300ECECED /* RegisterViewController.swift in Sources */,
+				A418EE771FE3C3300055A677 /* HomeViewController.swift in Sources */,
 				A4684E071FE0F01D00A4706D /* ToastView.swift in Sources */,
+				A4685AE61FEA4E8700E6B40A /* AlamofireSource.swift in Sources */,
 				A4684E031FE0EFF700A4706D /* Utils.swift in Sources */,
+				A41E50961FE7C4FA002BDD27 /* HomePackageCell.swift in Sources */,
 				A4684E0C1FE0F0ED00A4706D /* Networking.swift in Sources */,
 				A4684DCE1FE0EE9300A4706D /* ViewController.swift in Sources */,
+				A418EE791FE3C3650055A677 /* MyAccountViewController.swift in Sources */,
 				A420E2DC1FE1C1F300ECECED /* KeyboardDismissingView.swift in Sources */,
 				A4684E011FE0EFDF00A4706D /* Connector.swift in Sources */,
 				A4684DD41FE0EE9300A4706D /* GetBlushh.xcdatamodeld in Sources */,
 				A4684DCC1FE0EE9300A4706D /* AppDelegate.swift in Sources */,
 				A420E2CA1FE194DC00ECECED /* ACFloatingTextfield.swift in Sources */,
+				A42469151FE25DAE000195C6 /* MyDefaultPikers.swift in Sources */,
 				A4684E091FE0F09400A4706D /* Constants.swift in Sources */,
 				A420E2DA1FE1C1CD00ECECED /* KeyboardAvoidingMode.swift in Sources */,
+				A418EE751FE3C2790055A677 /* BookingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -33,7 +33,8 @@ func executePOST(view:UIView,path:String, parameter:Parameters , completion: @es
             
         case .failure:
             do {
-                try completion(JSON(data: NSData() as Data))
+                try completion(JSON(data: response.data!))
+                print(response.data)
             }catch{
                 
             }
